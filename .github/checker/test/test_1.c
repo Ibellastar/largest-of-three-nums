@@ -11,27 +11,29 @@ void tearDown(void)
 }
 
 void test_1(void) {
+    printf("find_max(1, 2, 3)\n");
+    fflush(stdout);
+    TEST_ASSERT_EQUAL_INT(3, find_max(1, 2, 3));
+    fflush(stdout);
+}
+
+void test_2(void) {
     printf("find_max(3, 1, 2)\n");
     fflush(stdout);
     TEST_ASSERT_EQUAL_INT(3, find_max(3, 1, 2));
     fflush(stdout);
-
-    // printf("find_max(1, 2, 3)\n");
-    // fflush(stdout);
-    // TEST_ASSERT_EQUAL_INT(3, find_max(1, 2, 3));
-
-    // printf("find_max()\n");
-    // fflush(stdout);
-    // TEST_ASSERT_EQUAL_INT(14, find_max(1, 4, 14));
-
-    // printf("find_max()\n");
-    // fflush(stdout);
-    // TEST_ASSERT_EQUAL_INT(9, find_max(1, 9, 7));
 }
 
-void test_2(void) {
-    printf("find_max(1, 2, 3)\n");
+void test_3(void) {
+    printf("find_max(1, 4, 14)\n");
     fflush(stdout);
-    TEST_ASSERT_EQUAL_INT(3, find_max(1, 2, 3));
+    TEST_ASSERT_EQUAL_INT(14, find_max(1, 4, 14));
+    fflush(stdout);
+}
+
+void test_4(void) {
+    printf("find_max(1, 9, 7)\n");
+    fflush(stdout);
+    TEST_ASSERT_EQUAL_INT(9, find_max(1, 9, 7));
     fflush(stdout);
 }
