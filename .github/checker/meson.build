@@ -40,7 +40,7 @@ test_2 = executable('test_2',
 )
 
 
-test('Test 2 Max of negative numbers', test_2)
+test('Test 2 - Max of negative numbers', test_2)
 
 test_3 = executable('test_3',
   sources: [
@@ -70,4 +70,4 @@ test_4 = executable('test_4',
 )
 
 
-test('Test 4- Max of repeating numbers', test_4)
+test('Test 4 - Max of repeating numbers', test_4)
