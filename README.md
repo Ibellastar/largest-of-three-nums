@@ -1,8 +1,8 @@
-# Activity: Largest of Three Numbers
+# Assignment: Largest of Three Numbers
 
 ### Introduction
 
-In this exercise you will practice working conditional statements and comparison operators in the C programming language.
+In this assignment you will practice working with conditional statements and comparison operators in the C programming language.
 
 ### Starter Files
 
@@ -21,8 +21,28 @@ The starter files for this exercise are located in the `src` directory. Implemen
   * Prompt the user to enter three numbers.
   * Call the **find_max** function with the input values and display the result inside a **printf** message.
 
-### Run Checks
+### Compile the Program
+To compile your program, fun the following command:
+```bash
+$ gcc -o largest_num src/largest_num.c src/main.c
+$ ./largest_num
+```
 
+### Command-Line Interface
+When you run the compiled program, it should prompt the user to enter three numbers. 
+```bash
+Enter three numbers:
+```
+The user The user inputs three integers separated by spaces (e.g., 17 45 -312), and presses Enter.
+```bash
+Enter three numbers: 17 45 -312
+```
+
+The program calculates the largest number and outputs the result:
+```bash
+The largest number is: 45
+```
+### Run Checks
 To check your work, run the following command:
 
 ```bash
