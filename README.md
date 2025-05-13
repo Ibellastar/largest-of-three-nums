@@ -42,6 +42,7 @@ The program calculates the largest number and outputs the result:
 ```bash
 The largest number is: 45
 ```
+// show entire program in a single block
 ### Run Checks
 To check your work, run the following command:
 
@@ -51,8 +52,8 @@ $ make checker
 
 This will run the tests and output the results.
 
-### Output
-
+#### Terminal Output 
+#### Github Output
 If all checks pass, you will see the following output:
 
 ```bash
@@ -106,4 +107,4 @@ Skipped:            0
 Timeout:            0
 ```
 
-In order to complete the exercise all tests must pass.
+In order to complete the assignment all tests must pass.

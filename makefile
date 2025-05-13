@@ -1,2 +1,2 @@
 checker:
-	make all -C .github/checker
+	make all -C .github/checker 
