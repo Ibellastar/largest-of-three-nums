@@ -16,6 +16,9 @@ The starter files for this exercise are located in the `src` directory. Implemen
   * Use **if** and **else** statements to compare the three input values and assign the largest one to **max**.
   * Return **max** from the function.
 
+## Rubric 
+// Insert rubric 
+
 ## Run Checks
 To check your work, run the following command:
 
@@ -234,8 +237,6 @@ Unexpected Pass:    0
 Skipped:            0
 Timeout:            0
 ```
-
-In order to complete the assignment all tests must pass.
 
 ## Optional Chanllenge
 Use printf and scanf to make your program interactive. 
