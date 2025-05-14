@@ -1,22 +1,22 @@
 # Assignment: Largest of Three Numbers
 
-### Introduction
+## Introduction
 
 In this assignment you will practice working with conditional statements and comparison operators in the C programming language.
 
-### Starter Files
+## Starter Files
 
 The starter files for this exercise are located in the `src` directory. Implement your code inside the following file:
 
 1. `largest_num.c`
 
-### Instructions
+## Instructions
 * In the file **largest_num.c**, complete the function **int find_max(int num1, int num2, int num3)**:
   * Begin by declaring an integer variable called **max**.
   * Use **if** and **else** statements to compare the three input values and assign the largest one to **max**.
   * Return **max** from the function.
 
-### Run Checks
+## Run Checks
 To check your work, run the following command:
 
 ```bash
@@ -24,7 +24,7 @@ $ make checker
 ```
 This will run the tests and output the results.
 
-#### Terminal Output 
+### Terminal Output 
 If all checks pass, you will see the following output:
 
 ```bash
@@ -181,7 +181,7 @@ Unexpected Pass:    0
 Skipped:            0   
 Timeout:            0 
 ```
-#### Github Output
+### Github Output
 If all checks pass, you will see the following output:
 
 ```bash
@@ -237,25 +237,25 @@ Timeout:            0
 
 In order to complete the assignment all tests must pass.
 
-### Optional Chanllenge
+## Optional Chanllenge
 Use printf and scanf to make your program interactive. 
-#### Starter Files
+### Starter Files
 Implement your code inside the file:
 1. `main.c`
 
-#### Instructions
+### Instructions
 * In **main.c**, use **printf** and **scanf** to interact with the user:
   * Prompt the user to enter three numbers.
   * Call the **find_max** function with the input values and display the result inside a **printf** message.
 
-#### Compile the Program
+### Compile the Program
 To compile your program, fun the following command:
 ```bash
 $ gcc -o largest_num src/largest_num.c src/main.c
 $ ./largest_num
 ```
 
-#### Command-Line Interface
+### Command-Line Interface
 When you run the compiled program, it should prompt the user to enter three numbers. 
 ```bash
 Enter three numbers: 17 45 -312
